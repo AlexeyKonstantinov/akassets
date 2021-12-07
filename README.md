@@ -1,1 +1,1 @@
-akassets.github.io
+Just a repository for hosting unity asset store support webpage.
