@@ -200,7 +200,7 @@ input, select, textarea {
 		line-height: 1.5;
 		margin: 0 0 2em 0;
 		text-transform: uppercase;
-		letter-spacing: 0.35em;
+		letter-spacing: 0.20em;
 	}
 
 		h2 a, h3 a, h4 a, h5 a, h6 a {
@@ -208,7 +208,7 @@ input, select, textarea {
 		}
 
 	h2 {
-		font-size: 1.1em;
+		font-size: 2.1em;
 	}
 
 	h3 {
@@ -2355,7 +2355,8 @@ input, select, textarea {
 		.image.main {
 			display: block;
 			margin: 0 0 3em 0;
-			width: 100%;
+			width: 10%;
+			height: 10%;
 		}
 
 			.image.main img {
@@ -2706,7 +2707,7 @@ input, select, textarea {
 					}
 
 			.tiles article.style1 > .image:before {
-				background-color: #f2849e;
+				background-color: #0c141e;
 			}
 
 			.tiles article.style2 > .image:before {

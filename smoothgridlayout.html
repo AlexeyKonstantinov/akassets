@@ -1,12 +1,7 @@
 <!DOCTYPE HTML>
-<!--
-	Phantom by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
 <html>
 	<head>
-		<title>AK assets</title>
+		<title>Smooth Grid Layout UI - AKASSETS</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
@@ -22,7 +17,7 @@
 
 							<!-- Logo -->
 								<a href="index.html" class="logo">
-									<span class="symbol"><img src="images/logo.svg" alt="" /></span><span class="title">AKASSETS	</span>
+									<span class="symbol"><img src="images/logo.svg" alt="" /></span><span class="title">AKASSETS</span>
 								</a>
 
 							<!-- Nav -->
@@ -37,7 +32,7 @@
 
 				<!-- Menu -->
 					<nav id="menu">
-						<h3>Menu</h3>
+						<h2>Menu</h2>
 						<ul>
 							<li><a href="index.html">Home</a></li>
 						</ul>
@@ -45,24 +40,16 @@
 
 				<!-- Main -->
 					<div id="main">
-						<div class="inner">
-							<header>
-								<h1>Hello!</h1>
-								<p>My name is Alexey Konstantinov. I'm a unity developer and a novice asset store publisher. Here are my assets!</p>
-							</header>
-							<section class="tiles">
-								<article class="style1">
-									<span class="image">
-										<img src="images/Background256_256.png" alt="" />
-									</span>
-									<a href="smoothgridlayout.html">
-										<h2>Smooth Grid Layout</h2>
-										<div class="content">
-											<p>Smooth grid layout ui package documentation</p>
-										</div>
-									</a>
-								</article>
-							</section>
+						<div class="inner">					
+							<h1>Smooth Grid Layout UI - Documentation</h1>
+							<span class="image main"><img src="images/icon_image.png" alt="" /></span>
+							<p><b>Usage:</b> Inside hierarchy window right-click -> UI -> Smooth Grid Layout.
+								Then put your UI elements under "Elements Container" gameobject. They will be automatically sized according to the grid cell size.</p>
+							<p><b>Works in playmode only!</b></p>
+							<p>The way it works: for every ui element that you put under "Elements Container" it creates invisible placeholders and puts those under "Placeholders container". 
+								Then it links added ui elements to corresponding placeholders so that they lerp to placeholders position.</p>
+							<p>Not very flexible solution, but still might be useful.</p>
+							<p><b><a href="https://youtu.be/hTOx47ySP18">Demo video.</a></b></p>
 						</div>
 					</div>
 
